@@ -15,8 +15,8 @@ stock = {
 print ("=" * 30)
 print ("Welcome to Python Supermarket!")
 print ("=" * 30)
-print(""
-)
+print("")
+
 for food in prices:
     print (food)
     print ("Price: %s" % prices[food])
