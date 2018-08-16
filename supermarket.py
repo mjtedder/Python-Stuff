@@ -1,18 +1,25 @@
 prices = {
-  "banana": 4,
-  "apple": 2,
-  "orange": 1.5,
-  "pear": 3
+  "Banana": 4,
+  "Apple": 2,
+  "Orange": 1.5,
+  "Pear": 3
 }
 
 stock = {
-  "banana": 6,
-  "apple": 0,
-  "orange": 32,
-  "pear": 15
+  "Banana": 6,
+  "Apple": 0,
+  "Orange": 32,
+  "Pear": 15
 }
 
+print ("=" * 30)
+print ("Welcome to Python Supermarket!")
+print ("=" * 30)
+print(""
+)
 for food in prices:
     print (food)
     print ("Price: %s" % prices[food])
     print ("Stock: %s" % stock[food])
+    print("")
+
