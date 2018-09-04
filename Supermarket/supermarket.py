@@ -23,3 +23,12 @@ for food in prices:
     print ("Stock: %s" % stock[food])
     print("")
 
+## Compute Bill Function ##
+
+def compute_bill(food):
+  total = 0
+  for item in food:
+    total = total + prices[item]
+  return total
+
+
